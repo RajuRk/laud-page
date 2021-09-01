@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.nav{
+    margin: 15px 0;
+}
+.header-section{
+    background-color: hsl(210deg 4% 11%);
+    height: 100vh;
+}
+.nav-item a{
+    color: #ffffff;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.display-3,
+.lead{
+    font-weight: 600!important;
+    color: #ffffff;
+}
+#about,
+#awards{
+    margin: 30px 0;
+}
+.poet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poet-img img{
+    max-width: 400px;
+}
+.content p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.learn-btn{
+    background-color: hsl(210deg 3% 88%)!important;
+}
+.video-btn{
+    background-color: hsl(0deg 71% 51%)!important;
+    color: #ffffff!important;
+}
+.books-btn{
+    background-color: hsl(24deg 89% 53%)!important;
+    color: #ffffff!important;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+#quote{
+    background-color: hsl(210deg 4% 11%);
+    text-align: center;
+    color: #fff;
+    padding: 35px 0px;
+}
+.hr-line{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hr-line::before,
+.hr-line::after{
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid hsl(180deg 1% 87%);
+}
+.hr-line:not(:empty)::before {
+    margin-right: .50em;
+  }
+  
+.hr-line:not(:empty)::after {
+    margin-left: .75em;
+}
+.fa-star{
+    margin: 0px .50em;
+    font-size: 1.2em;
+}
+.awards-name{
+    border: 1px solid hsl(180deg 1% 87%);
+    padding: 10px;
+    min-height: 105px;
+}
+.awards-name h5{
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+}
+.awards-name p{
+    font-size: 0.85em;
+    margin: 0;
+}
+.list li{
+    font-size: 0.85em; 
+}
