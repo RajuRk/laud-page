@@ -23,6 +23,9 @@ img{
     align-items: center;
     height: 450px;
 }
+.lead{
+   text-align: center;
+}
 .display-3,
 .lead{
     font-weight: 600!important;
