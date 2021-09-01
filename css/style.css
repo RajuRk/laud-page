@@ -40,6 +40,9 @@ img{
 .poet-img img{
     max-width: 400px;
 }
+.content h3{
+   font-weight: 600;
+}
 .content p{
     font-size: 1.2em;
     margin-bottom: 30px;
