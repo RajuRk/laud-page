@@ -59,6 +59,7 @@ img{
     display: flex;
     gap: 5px;
     justify-content: center;
+    margin: 10px 0;
 }
 #quote{
     background-color: hsl(210deg 4% 11%);
@@ -93,6 +94,7 @@ img{
     border: 1px solid hsl(180deg 1% 87%);
     padding: 10px;
     min-height: 105px;
+    margin: 3px 0;
 }
 .awards-name h5{
     font-size: 1em;
@@ -103,6 +105,28 @@ img{
     font-size: 0.85em;
     margin: 0;
 }
-.list li{
+.list{ 
+    margin: 0px 10px; 
+}
+.list li,
+.author p{
     font-size: 0.85em; 
+}
+footer{
+    background-color: hsl(210deg 4% 11%);
+    padding: 30px 0;
+}
+.author strong,
+.author p{
+    color: #ffffff;
+}
+.author span{
+    color: hsl(206.3, 6.3%, 50.2%);
+}
+.author p a{
+    color: #0d6efd!important;
+}
+.first-column,
+.second-column{
+    border-right: 1px solid #313131
 }
